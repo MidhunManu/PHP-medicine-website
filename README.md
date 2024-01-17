@@ -2,10 +2,10 @@
 ### How to use the project
 
 #### clone this repository
-`git clone https://github.com/MidhunManu/PHP-medicine-website`
+```git clone https://github.com/MidhunManu/PHP-medicine-website```
 
 #### start your PHP server
-`php -S localhost:8000`
+```php -S localhost:8000```
 
 ### Requirements
 - php (I used PHP 8.1.2)
