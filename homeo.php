@@ -7,7 +7,7 @@ require "db.php";
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Home page</title>
+		<title>Homeo page</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 	</head>
 	<style>
@@ -22,13 +22,12 @@ require "db.php";
 	
 		<div>
 			<p>
-
-Welcome to MedList – Your hub for medicine info spanning Allopathy, Homeopathy, and Ayurveda. Explore, learn, and empower your health journey with us.
+Homeopathy is a holistic medical system that believes in the principle "like cures like." It uses highly diluted substances to stimulate the body's natural healing processes. Homeopathic medicines, known as remedies, aim to treat the entire person, addressing physical, mental, and emotional aspects to promote overall well-being.
 			</p>
 		</div>
 
 		<?php
-			show_specific_medicines("all");
+			show_specific_medicines("Homeopathy");
 		?>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
